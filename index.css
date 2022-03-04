@@ -1,0 +1,257 @@
+body{
+    border: 6px groove rgb(131, 255, 14);
+    margin: 0px;
+    background: linear-gradient(256deg, blue,green,yellow,orange,red);
+    height: 1950px;
+}
+.top{
+    position: relative;
+    display: flex;
+    margin: 15px;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(255, 236, 212);
+    font-weight: bold
+}
+input{
+    text-align: center;
+}
+.first{
+    border: 8px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 35px;
+    background-color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 400px;
+    height:19vh;
+}
+.second{
+    border: 8px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 35px;
+    background-color: black;
+    height:50px;
+    right: 120px;
+    width: 35vw;
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content:center;
+    align-items:flex-end;
+}
+.third{
+    border: 8px;
+    border-radius: 35px;
+    border-color: red;
+    border-style: solid;
+    background-color: black;
+    width: 490px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -0.5vw;
+}
+.forth{
+    background-color: wheat;
+    border: 8px dashed red;
+    position:static;
+    width: 560px;
+    height:700px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 600px;
+    color: orangered;
+    font-size: 18px;
+}
+.register{
+    font-size: 30px;
+    font-weight: bold;
+}
+.circle{
+    border: 5px solid brown;
+    border-radius: 190px;
+    background-color: rgb(119, 253, 85);
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    width: 380px;
+    height: 380px;
+    left: 60px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 22px;
+    margin-top: 260px;
+}
+.main{
+    display: flex;
+    position:relative;
+    align-items: flex-start;
+    justify-content:space-around;
+}
+.menu{
+    border: 10px solid red;
+    position: relative;
+    border-radius: 70px;
+    width: 500px;
+    height: 80px;
+    color: bisque;
+    font-size: 27px;
+    background-color: black;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30vw;
+    margin-top: 40px;
+}
+.box{
+    display: flex;
+    position:relative;
+    justify-content: space-evenly;
+    margin:30px 10px ;
+}
+.one{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+li{
+    padding-left: 60px;
+}
+.starter{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+}
+ul{
+    font-size: 20px;
+    color: rgb(3, 3, 97);
+}
+.two{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+.south{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+}
+.three{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+.kitchen{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+}
+.boxs{
+    display: flex;
+    position:relative;
+    justify-content: space-evenly;
+    margin:30px 10px ;
+}
+.ones{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+.rice{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+}
+ul{
+    font-size: 20px;
+    color: rgb(3, 3, 97);
+}
+.twos{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+.bread{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+}
+.threes{
+    border: 2px solid green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 27, 51);
+    background-color: rgb(17, 255, 223);
+    width: 300px;
+}
+.other{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 12, 98);
+    margin-top: 20px;
+    text-align: center;
+}
